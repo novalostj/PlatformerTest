@@ -1,7 +1,7 @@
 # PlatformerTest
 
 ## Completed Optional Objectives
-1. Added three different levels with increasing difficulty, I think this is the least most challenging among the list, and I'm already and making new different levels makes the game more fun.
+1. Added three different levels with increasing difficulty, I think this is the least most challenging among the list, and I'm already in making different levels makes the game more fun.
 2. Custom SFX, I used bfxr to automate the sounds effects, and some online music to put some life in the game.
 3. Local and Online leaderboard, I added online leaderboard not just the local ones because I consider the cases when you don't have anyone to play around. Online just comes in handy on that situation. (Note: to test this in unity, install the package from lootlocker git).
 
