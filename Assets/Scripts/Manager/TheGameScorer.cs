@@ -9,6 +9,7 @@ using UnityEngine.Assertions.Must;
 
 public class TheGameScorer : MonoBehaviour
 {
+    public GameObject controls;
     public MainMenuManager manager;
     public Movement player;
     public TextMeshProUGUI score;
@@ -23,6 +24,11 @@ public class TheGameScorer : MonoBehaviour
     private void Start()
     {
         finishUI.SetActive(false);
+
+        if (SystemInfo.deviceType == DeviceType.Desktop)
+        {
+            controls.SetActive(false);
+        }
     }
 
     private void Update()

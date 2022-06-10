@@ -465,7 +465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316329473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.982758, y: -3.659998, z: -10}
+  m_LocalPosition: {x: -62.95343, y: -3.659998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -689,6 +689,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3260983282991773294, guid: fe91ca80b8fd6de47aab56ae7f94beda,
     type: 3}
   m_PrefabInstance: {fileID: 1668931176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &517726456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4184979265713199495, guid: 6a26eab8b53dabf44b79eef0e07df709,
+    type: 3}
+  m_PrefabInstance: {fileID: 2043601976}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &591808050
 GameObject:
@@ -24976,6 +24982,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Movement_Sign
       objectReference: {fileID: 0}
+    - target: {fileID: 3260983282991773292, guid: fe91ca80b8fd6de47aab56ae7f94beda,
+        type: 3}
+      propertyPath: msgIfDesktop
+      value: Do a long jump on right, well good luck
+      objectReference: {fileID: 0}
     - target: {fileID: 3260983282991773294, guid: fe91ca80b8fd6de47aab56ae7f94beda,
         type: 3}
       propertyPath: m_RootOrder
@@ -25251,6 +25262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Movement_Sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260983282991773292, guid: fe91ca80b8fd6de47aab56ae7f94beda,
+        type: 3}
+      propertyPath: msgIfDesktop
+      value: was it easy? okay then try this
       objectReference: {fileID: 0}
     - target: {fileID: 3260983282991773294, guid: fe91ca80b8fd6de47aab56ae7f94beda,
         type: 3}
@@ -41599,6 +41615,11 @@ PrefabInstance:
       propertyPath: manager
       value: 
       objectReference: {fileID: 1087240433}
+    - target: {fileID: 4977483919734391876, guid: 8ecc3afbaa92f1b41a797aad4057a3c4,
+        type: 3}
+      propertyPath: controls
+      value: 
+      objectReference: {fileID: 517726456}
     - target: {fileID: 4977483919734391876, guid: 8ecc3afbaa92f1b41a797aad4057a3c4,
         type: 3}
       propertyPath: finishUI

@@ -400,6 +400,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 942802833}
+  hasDifferentPCMSG: 1
+  msgIfDesktop: To Jump W, space, or up arrow
+  text: {fileID: 46202153}
 --- !u!212 &107466623
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -606,6 +609,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164022289}
   m_CullTransparentMesh: 0
+--- !u!114 &216446368 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3260983283498889219, guid: fe91ca80b8fd6de47aab56ae7f94beda,
+    type: 3}
+  m_PrefabInstance: {fileID: 3260983284124496456}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &265466821
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,6 +872,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 481527981}
+  hasDifferentPCMSG: 0
+  msgIfDesktop: Eliminate monsters by landing on top, you will respawn if you touch
+    them
+  text: {fileID: 164022291}
 --- !u!212 &347604028
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1107,6 +1126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1885650770}
+  hasDifferentPCMSG: 0
+  msgIfDesktop: To finish, Close the Gate by  touching lever
+  text: {fileID: 907521895}
 --- !u!212 &451497067
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1469,7 +1491,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.555557, y: -3.999999, z: -10}
+  m_LocalPosition: {x: -59.95343, y: -3.999999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7598,6 +7620,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 265466821}
+  hasDifferentPCMSG: 0
+  msgIfDesktop: Start game, touch the Lever RUN FAST!
+  text: {fileID: 1326335558}
 --- !u!212 &1074513680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7648,6 +7673,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1084987822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4184979265713199495, guid: 6a26eab8b53dabf44b79eef0e07df709,
+    type: 3}
+  m_PrefabInstance: {fileID: 7873330181451518402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1163536144 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4977483919734391899, guid: 8ecc3afbaa92f1b41a797aad4057a3c4,
@@ -8306,6 +8337,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 636597692}
+  hasDifferentPCMSG: 0
+  msgIfDesktop: DONT TOUCH SPIKES
+  text: {fileID: 1952779377}
 --- !u!212 &1799196558
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8650,6 +8684,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1801532872}
+  hasDifferentPCMSG: 0
+  msgIfDesktop: 'Save point '
+  text: {fileID: 2005529091}
 --- !u!212 &1920761488
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9064,6 +9101,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1498097501}
+  hasDifferentPCMSG: 0
+  msgIfDesktop: You can jump  two times
+  text: {fileID: 1636770092}
 --- !u!212 &2102296888
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9280,6 +9320,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Movement_Sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260983282991773292, guid: fe91ca80b8fd6de47aab56ae7f94beda,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 216446368}
+    - target: {fileID: 3260983282991773292, guid: fe91ca80b8fd6de47aab56ae7f94beda,
+        type: 3}
+      propertyPath: msgIfDesktop
+      value: To Walk W A or arrows keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260983282991773292, guid: fe91ca80b8fd6de47aab56ae7f94beda,
+        type: 3}
+      propertyPath: msgIfHandheld
+      value: To Walk Left & Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260983282991773292, guid: fe91ca80b8fd6de47aab56ae7f94beda,
+        type: 3}
+      propertyPath: hasDifferentPCMSG
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3260983282991773294, guid: fe91ca80b8fd6de47aab56ae7f94beda,
         type: 3}
@@ -9510,6 +9570,11 @@ PrefabInstance:
       propertyPath: manager
       value: 
       objectReference: {fileID: 782100496}
+    - target: {fileID: 4977483919734391876, guid: 8ecc3afbaa92f1b41a797aad4057a3c4,
+        type: 3}
+      propertyPath: controls
+      value: 
+      objectReference: {fileID: 1084987822}
     - target: {fileID: 4977483919734391876, guid: 8ecc3afbaa92f1b41a797aad4057a3c4,
         type: 3}
       propertyPath: finishUI

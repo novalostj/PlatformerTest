@@ -97,6 +97,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 3260983283284459456}
+  msgIfHandheld: 
+  msgIfDesktop: 
+  text: {fileID: 3260983283498889219}
 --- !u!61 &3260983282991773291
 BoxCollider2D:
   m_ObjectHideFlags: 0

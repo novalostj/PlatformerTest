@@ -4958,6 +4958,11 @@ PrefabInstance:
       objectReference: {fileID: 443296895}
     - target: {fileID: 4977483919734391876, guid: 8ecc3afbaa92f1b41a797aad4057a3c4,
         type: 3}
+      propertyPath: controls
+      value: 
+      objectReference: {fileID: 1142320671}
+    - target: {fileID: 4977483919734391876, guid: 8ecc3afbaa92f1b41a797aad4057a3c4,
+        type: 3}
       propertyPath: finishUI
       value: 
       objectReference: {fileID: 505244345}
@@ -11884,6 +11889,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29749ce1fbfd0744b9859fac6a8da94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1142320671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4184979265713199495, guid: 6a26eab8b53dabf44b79eef0e07df709,
+    type: 3}
+  m_PrefabInstance: {fileID: 505244342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1150173660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12659,7 +12670,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870725331}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -77.98276, y: -4.81, z: -10}
+  m_LocalPosition: {x: -76.95343, y: -4.81, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
